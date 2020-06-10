@@ -1,12 +1,40 @@
-:root {
-  font: 16px / 1 sans-serif;
-}
-
 html {
   height: 100%;
 }
 
 body {
-  margin: 0;
+  margin: 100;
   min-height: 100%;
+  background-color: darkgray;
+}
+
+header, footer {
+  color: darkblue;
+  text-align: center;
+  font: italic 1.2em "Fira Sans", serif;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+  font: small-caps bold 24px/1 sans-serif;
+}
+
+p {
+  color: darkblue;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font: 16px / 1 cursive;
+}
+
+figure img {
+  margin-top: 20rem;
+  margin-left: 71rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
